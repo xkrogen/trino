@@ -1,4 +1,4 @@
-### External Plugins Directory
+### External plugins
 
-External plugins can be added to this directory to test with `DevelopmentServer`. Each 
-plugin should be added as its own subdirectory.
+You can add external plugins in a directory and test with `DevelopmentServer` class. Each 
+plugin must be added as its own subdirectory and contain all necessary dependencies. 
