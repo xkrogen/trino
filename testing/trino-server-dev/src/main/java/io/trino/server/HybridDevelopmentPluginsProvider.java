@@ -18,10 +18,6 @@ import io.trino.server.PluginManager.PluginsProvider;
 
 import static java.util.Objects.requireNonNull;
 
-/**
- * Supports loading internal and external plugins simultaneously during development.
- * The `plugin.dir` value in `config.properties` is relative to `trino-server-dev` module.
- */
 public class HybridDevelopmentPluginsProvider
         implements PluginsProvider
 {
